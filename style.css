@@ -12,4 +12,8 @@ p
         font-family: Verdana;
         font-style: italic;
         color: blue;
-}      
+}
+
+em {
+	color : red;
+}
