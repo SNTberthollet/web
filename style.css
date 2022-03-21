@@ -1,7 +1,28 @@
+/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 body {
 	background-image: url("circuit-board-g6add3c4a9_1280.png");
-	color: white;
     text-align: left;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+	max-width: 100%;
+}
+
+/* conserver le ratio des images */
+img {
+	height: auto;
+}
+	
+/* gestion des mots longs */
+textarea, table, td, th, code, pre, samp {
+	-webkit-hyphens: auto; /* césure propre */
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word; /* passage à la ligne forcé */
 }
 
 div {
@@ -16,8 +37,8 @@ div {
 
 h1
 {
-	width: 800px;
-	padding: 1px 10px;
+	padding: 10px;
+	width: 70%;
     background-color: #c99e33;
 	color: black;
 	font-family: Arial, sans-serif;
@@ -25,7 +46,7 @@ h1
 }
 
 h2 {
-	padding: 10px;
+	padding: 1px 10px;
 	color: #c99e33;
 	font-size: 25px;
 }
@@ -43,9 +64,7 @@ p, li, ul
   	margin-left: 10px;
 	font-size: 12px;
     font-family: Verdana;
-    font-style: italic;
     color: white;
-	background-color: black;
 }
 
 ::marker {
