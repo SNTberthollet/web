@@ -45,7 +45,7 @@ h1
 	color: black;
 	font-family: Arial, sans-serif;
 	font-size: 35px;
-	border-radius:10px;
+	border-radius:5px;
 
 }
 
@@ -61,22 +61,18 @@ a {
 	font-style: underline;
 	font-size: 12px;
 	font-family: Verdana;
-	border-radius:10px;
+	border-radius:5px;
 }
 
 p, li, ul
 {
-  	margin-left: 10px;
+	margin-left: 10px;
 	font-size: 12px;
     font-family: Verdana;
     color: white;
 }
 
-::marker {
-  font-size: 0px;
-}
-
-ul::before {
+li::before {
 	content: "\25AA";
 	color:  #c99e33;
   	display: inline-block;
