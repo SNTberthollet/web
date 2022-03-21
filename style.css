@@ -1,11 +1,11 @@
 body {
 	background-color: black;
 	color: white;
+        text-align: left;
 }
 
 h1
 {
-        text-align: left;
         background-color: white;
 	color: lightblue;
 	font-family: Helvetica, Arial, sans-serif;
@@ -14,8 +14,8 @@ h1
 }
 
 h2 {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	font-size: 20px;
 }
 
@@ -23,11 +23,14 @@ a {
 	background-color: grey;
 	color: white;
 	font-style: underline;
+	font-size: 12px;
+        font-family: Verdana;
 }
 
 
 p, li, ul
 {
+	font-size: 12px;
         font-family: Verdana;
         font-style: italic;
         color: white;
@@ -39,9 +42,6 @@ li::before {
   	display: inline-block;
 	width: 1em;
   	margin-left: -1em;
-	font-size: 12pt;
-	color: white;
-	background-color: black;
 }
 
 em {
