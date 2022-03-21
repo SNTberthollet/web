@@ -1,47 +1,63 @@
 body {
-	background-color: black;
+	background-image: url("circuit-board-g6add3c4a9_1280.png");
 	color: white;
-        text-align: left;
+    text-align: left;
+}
+
+div {
+	width: 70%;
+    background-color: black;
+	border: ridge;
+	border-color: #c99e33;
+	border-width: 20px;
+	padding: 10px;
+	margin: 10px;
 }
 
 h1
 {
-        background-color: white;
-	color: lightblue;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 25px;
-	color: red;
+	width: 800px;
+	padding: 1px 10px;
+    background-color: #c99e33;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 35px;
 }
 
 h2 {
-	background-color: white;
-	color: black;
-	font-size: 20px;
+	padding: 10px;
+	color: #c99e33;
+	font-size: 25px;
 }
 
 a {
-	background-color: grey;
-	color: white;
+	background-color: #c99e33;
+	color: black;
 	font-style: underline;
 	font-size: 12px;
-        font-family: Verdana;
+    font-family: Verdana;
 }
-
 
 p, li, ul
 {
+  	margin-left: 10px;
 	font-size: 12px;
-        font-family: Verdana;
-        font-style: italic;
-        color: white;
+    font-family: Verdana;
+    font-style: italic;
+    color: white;
 	background-color: black;
 }
 
-li::before {
+::marker {
+  font-size: 0px;
+}
+
+ul::before {
 	content: "\25AA";
+	color:  #c99e33;
   	display: inline-block;
 	width: 1em;
-  	margin-left: 5em;
+  	margin-left: 2em;
 }
 
 em {
