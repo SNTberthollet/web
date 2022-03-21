@@ -1,13 +1,15 @@
 h1
 {
         text-align: center;
-        background-color: yellow;
-	color: red;
+        background-color: black;
+	color: blue;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.4rem;
 }
 
 p
 {
         font-family: Verdana;
         font-style: italic;
-        color: green;
+        color: blue;
 }      
