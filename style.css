@@ -1,32 +1,40 @@
 body {
 	background-image: url("circuit-board-g6add3c4a9_1280.png");
-	 background-color: black;
+	background-color: black;
+	color: white;
 }
 
 h1
 {
         text-align: left;
-        background-color: black;
+        background-color: white;
 	color: lightblue;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 25px;
+	color: white;
+}
+
+h2 {
+	background-color: black;
+	color: white;
+	font-size: 20px;
 }
 
 p
 {
         font-family: Verdana;
         font-style: italic;
-        color: black;
+        color: white;
 	background-color: black;
 }
 
 li::before {
 	content: "\25AA";
-	color: black;
   	display: inline-block;
 	width: 1em;
   	margin-left: -1em;
 	font-size: 12pt;
+	color: white;
 	background-color: black;
 }
 
