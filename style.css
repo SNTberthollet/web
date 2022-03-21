@@ -1,15 +1,16 @@
+body {
+	background-image: url("circuit-board-g6add3c4a9_1280.png");
+}
+
 h1
 {
         text-align: left;
         background-color: black;
 	color: lightblue;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 }
 
-body {
-	background-image: url("circuit-board-g6add3c4a9_1280.png");
-}
 p
 {
         font-family: Verdana;
@@ -18,7 +19,7 @@ p
 }
 
 li::before {
-	content: "•";
+	content: "\25AA";
 	color: black;
   	display: inline-block;
 	width: 1em;
