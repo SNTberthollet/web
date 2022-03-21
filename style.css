@@ -11,11 +11,15 @@ p
 {
         font-family: Verdana;
         font-style: italic;
-        color: blue;
+        color: black;
 }
 
-ul {
-	list-style-type: circle;
+li::before {
+	content: "•";
+	color: black;
+  	display: inline-block;
+	width: 1em;
+  	margin-left: -1em
 }
 
 em {
