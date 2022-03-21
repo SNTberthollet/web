@@ -39,6 +39,7 @@ div {
 
 h1
 {
+	margin: 2em;
 	padding: 10px;
 	width: 70%;
     background-color: #c99e33;
@@ -70,6 +71,10 @@ p, li, ul
 	font-size: 12px;
     font-family: Verdana;
     color: white;
+}
+
+::marker {
+  font-size: 0px;
 }
 
 li::before {
