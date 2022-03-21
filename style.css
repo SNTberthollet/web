@@ -24,7 +24,8 @@ li::before {
 	color: black;
   	display: inline-block;
 	width: 1em;
-  	margin-left: -1em
+  	margin-left: -1em;
+	font-size: 12pt;
 }
 
 em {
