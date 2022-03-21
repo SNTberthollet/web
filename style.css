@@ -17,6 +17,7 @@ p
         font-family: Verdana;
         font-style: italic;
         color: black;
+	background-color: black;
 }
 
 li::before {
@@ -26,8 +27,10 @@ li::before {
 	width: 1em;
   	margin-left: -1em;
 	font-size: 12pt;
+	background-color: black;
 }
 
 em {
+	background-color: black;
 	color : red;
 }
