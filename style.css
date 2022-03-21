@@ -58,7 +58,8 @@ a {
 	color: black;
 	font-style: underline;
 	font-size: 12px;
-    font-family: Verdana;
+	font-family: Verdana;
+	border-radius:30px;
 }
 
 p, li, ul
