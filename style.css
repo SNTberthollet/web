@@ -41,7 +41,7 @@ li::before {
 	content: "\25AA";
   	display: inline-block;
 	width: 1em;
-  	margin-left: -1em;
+  	margin-left: 5em;
 }
 
 em {
