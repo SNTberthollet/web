@@ -80,6 +80,10 @@ li::before {
   	margin-left: 2em;
 }
 
+.img {
+	max-width: 150px;
+}
+
 em {
 	background-color: black;
 	color : red;
