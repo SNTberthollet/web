@@ -34,7 +34,7 @@ textarea, table, td, th, code, pre, samp {
 	word-wrap: break-word; /* passage à la ligne forcé */
 }
 
-div {
+.or {
 	width: 70%;
     	background-color: black;
 	border: ridge;
