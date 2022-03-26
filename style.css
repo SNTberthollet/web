@@ -9,8 +9,11 @@ body {
 	padding: 0;
 }
 
-footer {
+.footer {
 	text-align: center;
+    	background-color: none;
+	padding: 10px;
+	margin: 10px;
 }
 
 /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
@@ -33,7 +36,7 @@ textarea, table, td, th, code, pre, samp {
 
 div {
 	width: 70%;
-    background-color: black;
+    	background-color: black;
 	border: ridge;
 	border-color: #c99e33;
 	border-width: 20px;
