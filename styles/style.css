@@ -23,7 +23,7 @@ img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, v
 
 img {
 	height: auto; /* conserver le ratio des images */
-	max-width: 150px;
+	max-width: 350px;
 }
 	
 /* gestion des mots longs */
