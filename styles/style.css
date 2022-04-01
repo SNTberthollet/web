@@ -1,6 +1,6 @@
 /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 body {
-	background-image: url("../images/circuit-board-g6add3c4a9_1280.png");
+	background-image: url("images/circuit-board-g6add3c4a9_1280.png");
 	background-size: cover;
 	background-attachment: fixed;
     text-align: left;
