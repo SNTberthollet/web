@@ -1,0 +1,16 @@
+body {
+        background-color: pink;
+}
+h1
+{
+        text-align: center;
+        background-color: white;
+	color: pink;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: italic;
+        color: green;
+}      
