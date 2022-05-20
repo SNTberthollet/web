@@ -10,3 +10,8 @@ p
         font-family: Verdana;
         font-style: normal;
 }      
+
+body {
+	background-color : black;
+	color: yellow;
+}
