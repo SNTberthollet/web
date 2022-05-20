@@ -1,0 +1,24 @@
+h1
+{
+        text-align: center;
+        background-color: grey;
+	color: white;
+}
+
+p
+{
+	text-align: left;
+        background-color: white;
+	color: black;
+        font-family: Verdana;
+        font-style: normal;
+}      
+img
+{
+	max-width: 40%;
+    height: auto;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}      
