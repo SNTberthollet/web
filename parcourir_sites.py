@@ -29,22 +29,31 @@ class MyHTMLParser(HTMLParser):
 
 
 # Erreurs
-erreur_title = "/!\\ ATTENTION il manque la balise <title> /!\\"
-erreur_h1 = "/!\\ ATTENTION il manque la balise <h1> /!\\"
-erreur_index = "/!\\ ATTENTION il manque le fichier index.html /!\\"
+erreur_title = " /!\\ ATTENTION il manque la balise title /!\\"
+erreur_h1 = " /!\\ ATTENTION il manque la balise h1 /!\\"
+erreur_index = " /!\\ ATTENTION il manque le fichier index.html /!\\"
+erreur_html = " /!\\ ERREUR dans la lecture du fichier HTML /!\\"
 
 # Code pour parcourir tous les répertoires des élèves :
 repertoire="/tmp/dossier/"
 page=""
 for eleve in os.listdir(repertoire):
     index = False
+    sous_repertoire = False
+    
+    #Vérifier s'il y a un sous-dossier
+    
     for fichier in os.listdir(repertoire+eleve):
+        # Vérifier s'il y a un sous-dossier --> à faire
+        if(os.path.isdir(fichier)):
+            sous_repertoire = True
         try:
+            # On parcourt le fichier si son extension est html
             if(fichier.endswith(".html")):
                 # On cherche le fichier index.html
                 if(fichier == "index.html"):
                     index = True
-                page=fichier
+                page = fichier
                 parser = MyHTMLParser()
                 f = open(repertoire+eleve+"/"+fichier)
                 html = f.read()
@@ -68,12 +77,22 @@ for eleve in os.listdir(repertoire):
                     h1 = span.text
                     if(h1 is None):
                         h1 =  erreur_h1
+                if(index):
+                    break
+        # Si le parcours de l'arbre HTML a échoué
         except:
-            titre = "ILLISIBLE !!!"
+            titre = erreur_html
             h1 = ""
-        
+
+    # Le fichier index.html est-il présent ?
+    page_accueil = "eleves/"+eleve
     if(index):
-        print("<li><a href=\"" + eleve + "/\">"+eleve+" : "+titre+" - "+h1+"</a></li>\n")
-    # Il manque le fichier index.html
-    else:          
-        print("<li><a href=\"" + eleve+"/"+page + "\">"+eleve+" : "+titre+" - "+h1+erreur_index+"</a></li>\n")
+        intitule = eleve+" : "+titre+" - "+h1
+    else:
+        page_accueil += "/"+page
+        intitule = eleve+" : "+titre+" - "+h1+erreur_index
+    if(sous_repertoire):
+        intitule = "Il ne doit pas y avoir de sous-répertoire "+intitule
+    # On écrit le code HTML généré
+    print("<li><a href=\""+ page_accueil+"\">"+intitule+"</a></li>\n")
+
