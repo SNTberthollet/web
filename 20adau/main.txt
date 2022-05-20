@@ -1,7 +1,0 @@
-<!doctype html>
-<html lang="fr">
-
-	<head>
-	
-		<meta chairset="utf-8">
-		<title>
