@@ -1,0 +1,17 @@
+h1
+{
+        text-align: center;
+        background-color: Red;
+	color:  Yellow;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: normal;
+}      
+
+body {
+	background-color : black;
+	color: yellow;
+}
