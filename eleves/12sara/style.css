@@ -1,0 +1,13 @@
+h1
+{
+        text-align: center;
+        background-color: yellow;
+	color: red;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: italic;
+        color: green;
+}      
