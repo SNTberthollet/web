@@ -1,0 +1,19 @@
+h1
+{
+        text-align: center;
+        background-color: white ;
+	color: black;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: italic;
+        color: darkblue;
+}      
+img {
+	width: 1000px;
+}
+body {
+	background-color: lightblue
+	}

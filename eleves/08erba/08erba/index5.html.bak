@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+        <head>
+                <meta charset="utf-8">
+                <title>Voici mon site</title>
+				<link href="style.css" rel="stylesheet">
+        </head>
+        
+	
+	<body>
+                <h1>vous avez cliquez sur "ne pas cliquez ici"</h1>
+                <p>je vous ai prévenu</p>
+				<a href="page secrète.html"><strong>cliquez ici</strong></a>
+        
+	</body>
+
+</html>
