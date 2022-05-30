@@ -1,0 +1,13 @@
+h1
+{
+        text-align: center;
+        background-color: orange;
+	color: black;
+}
+
+p
+{
+        font-family: bidi-override;
+        font-style: italic;
+        color: blue;
+}      

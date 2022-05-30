@@ -1,0 +1,13 @@
+h1
+{
+        text-align: left;
+        background-color: pink;
+	color: purple;
+}
+
+p
+{
+        font-family: bidi-override;
+        font-style: italic;
+        color: green;
+}      
