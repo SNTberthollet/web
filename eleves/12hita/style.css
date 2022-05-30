@@ -1,0 +1,13 @@
+h1
+{
+        text-align: center;
+        background-color: blue;
+	color: black;
+}
+
+p
+{
+        font-family: verdana;
+        font-style: italic;
+        color: black;
+}      

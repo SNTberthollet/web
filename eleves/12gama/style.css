@@ -1,0 +1,16 @@
+h1
+{
+        text-align: center;
+        background-color: Black;
+	color: white;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: italic;
+        color: black;
+}     
+img {
+	float: right;
+}	
