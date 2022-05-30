@@ -1,0 +1,16 @@
+h1
+{
+        text-align: center;
+        background-color: orange;
+        font-family: impact;
+        font-size: 16;
+	color: white
+;
+}
+
+p
+{
+        font-family: arial;
+        font-style: italic;
+        color: black;
+}      
