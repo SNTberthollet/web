@@ -1,0 +1,17 @@
+h1
+{
+        text-align: center;
+        background-color: purple;
+	color: pink;
+}
+
+p
+{
+        font-family: Verdana;
+        font-style: italic;
+        color: black;
+}      
+.engros {
+	font-size: 16pt ;
+	text-align:left ;
+}
