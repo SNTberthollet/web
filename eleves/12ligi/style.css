@@ -1,0 +1,26 @@
+h1
+{
+		text-align: center;
+		background-color:    #1650a8  ;
+		color:   white ;
+		font-family: Brush Script MT;
+}
+
+h2
+{
+        font-family: Snell Roundhand;
+        font-style: italic;
+        color: white ;
+		text-align: center
+}      
+body
+{
+	background-color: #7ed8ff ;
+}
+
+img {
+	padding: 35px;
+
+}
+
+
